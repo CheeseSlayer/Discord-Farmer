@@ -51,7 +51,7 @@ Any argument is added by the argument string and then the value, if applicable.
 `-amd` Adding this argument will **OVERRIDE** the mining delay above, and will constantly adapt the mining delay to your pickaxe's efficiency level.
 
 ###### Verification Delay
-`-vd` Adding this argument will delay verification to make it more human like, obviously, there is a randomized offset over that to make sure it is safe & sound. A verification delay of at least 5 seconds and more is recommended.
+`-vd <DELAY MS>` Adding this argument will delay verification to make it more human like, obviously, there is a randomized offset over that to make sure it is safe & sound. A verification delay of at least 5 seconds and more is recommended.
 
 ###### Pickaxe Lock
 `-p <PICKAXE>` Adding this argument will lock the user's pickaxe. For example, if he unlocks the diamond pickaxe, it will go back to the "locked" pickaxe. **Possible pickaxes are: WOODEN, STONE, GOLD, IRON, DIAMOND, SAPPHIRE, EMERALD, RUBY, ULTIMATE, DONATOR, CRATE**
